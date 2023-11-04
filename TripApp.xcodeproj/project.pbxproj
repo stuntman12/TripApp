@@ -13,6 +13,7 @@
 		A5C02B702AF6774100F324D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C02B6E2AF6774100F324D1 /* Main.storyboard */; };
 		A5C02B722AF6774300F324D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C02B712AF6774300F324D1 /* Assets.xcassets */; };
 		A5C02B752AF6774300F324D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C02B732AF6774300F324D1 /* LaunchScreen.storyboard */; };
+		A5C02B812AF6783F00F324D1 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C02B802AF6783F00F324D1 /* Trip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A5C02B712AF6774300F324D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5C02B742AF6774300F324D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5C02B762AF6774300F324D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C02B802AF6783F00F324D1 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,56 @@
 		A5C02B672AF6774100F324D1 /* TripApp */ = {
 			isa = PBXGroup;
 			children = (
-				A5C02B682AF6774100F324D1 /* AppDelegate.swift */,
-				A5C02B6A2AF6774100F324D1 /* SceneDelegate.swift */,
-				A5C02B6C2AF6774100F324D1 /* ViewController.swift */,
-				A5C02B6E2AF6774100F324D1 /* Main.storyboard */,
-				A5C02B712AF6774300F324D1 /* Assets.xcassets */,
-				A5C02B732AF6774300F324D1 /* LaunchScreen.storyboard */,
-				A5C02B762AF6774300F324D1 /* Info.plist */,
+				A5C02B822AF6784900F324D1 /* Model */,
+				A5C02B7C2AF6778400F324D1 /* App */,
+				A5C02B7E2AF677A400F324D1 /* ViewControllers */,
+				A5C02B7D2AF6779200F324D1 /* Storyboard */,
+				A5C02B7F2AF677C900F324D1 /* Resourse */,
 			);
 			path = TripApp;
+			sourceTree = "<group>";
+		};
+		A5C02B7C2AF6778400F324D1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A5C02B762AF6774300F324D1 /* Info.plist */,
+				A5C02B682AF6774100F324D1 /* AppDelegate.swift */,
+				A5C02B6A2AF6774100F324D1 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A5C02B7D2AF6779200F324D1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A5C02B6E2AF6774100F324D1 /* Main.storyboard */,
+				A5C02B732AF6774300F324D1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A5C02B7E2AF677A400F324D1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5C02B6C2AF6774100F324D1 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A5C02B7F2AF677C900F324D1 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				A5C02B712AF6774300F324D1 /* Assets.xcassets */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		A5C02B822AF6784900F324D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5C02B802AF6783F00F324D1 /* Trip.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C02B812AF6783F00F324D1 /* Trip.swift in Sources */,
 				A5C02B6D2AF6774100F324D1 /* ViewController.swift in Sources */,
 				A5C02B692AF6774100F324D1 /* AppDelegate.swift in Sources */,
 				A5C02B6B2AF6774100F324D1 /* SceneDelegate.swift in Sources */,
@@ -293,7 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TripApp/Info.plist;
+				INFOPLIST_FILE = TripApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,7 +364,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TripApp/Info.plist;
+				INFOPLIST_FILE = TripApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
