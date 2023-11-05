@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DA508E22AF6859A00DA046E /* SelectedTour.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA508E12AF6859A00DA046E /* SelectedTour.storyboard */; };
+		2DA508E42AF685BB00DA046E /* SelectedTourTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA508E32AF685BB00DA046E /* SelectedTourTableViewController.swift */; };
+		2DA508E62AF685DA00DA046E /* SelectedTourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA508E52AF685DA00DA046E /* SelectedTourTableViewCell.swift */; };
 		A5C02B692AF6774100F324D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C02B682AF6774100F324D1 /* AppDelegate.swift */; };
 		A5C02B6B2AF6774100F324D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C02B6A2AF6774100F324D1 /* SceneDelegate.swift */; };
 		A5C02B6D2AF6774100F324D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C02B6C2AF6774100F324D1 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DA508E12AF6859A00DA046E /* SelectedTour.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectedTour.storyboard; sourceTree = "<group>"; };
+		2DA508E32AF685BB00DA046E /* SelectedTourTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTourTableViewController.swift; sourceTree = "<group>"; };
+		2DA508E52AF685DA00DA046E /* SelectedTourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTourTableViewCell.swift; sourceTree = "<group>"; };
 		A5C02B652AF6774100F324D1 /* TripApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C02B682AF6774100F324D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C02B6A2AF6774100F324D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DA508E02AF6857900DA046E /* Max */ = {
+			isa = PBXGroup;
+			children = (
+				2DA508E12AF6859A00DA046E /* SelectedTour.storyboard */,
+				2DA508E32AF685BB00DA046E /* SelectedTourTableViewController.swift */,
+				2DA508E52AF685DA00DA046E /* SelectedTourTableViewCell.swift */,
+			);
+			path = Max;
+			sourceTree = "<group>";
+		};
 		A5C02B5C2AF6774100F324D1 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +74,7 @@
 		A5C02B672AF6774100F324D1 /* TripApp */ = {
 			isa = PBXGroup;
 			children = (
+				2DA508E02AF6857900DA046E /* Max */,
 				A5C02B822AF6784900F324D1 /* Model */,
 				A5C02B7C2AF6778400F324D1 /* App */,
 				A5C02B7E2AF677A400F324D1 /* ViewControllers */,
@@ -169,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5C02B752AF6774300F324D1 /* LaunchScreen.storyboard in Resources */,
+				2DA508E22AF6859A00DA046E /* SelectedTour.storyboard in Resources */,
 				A5C02B722AF6774300F324D1 /* Assets.xcassets in Resources */,
 				A5C02B702AF6774100F324D1 /* Main.storyboard in Resources */,
 			);
@@ -181,6 +199,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA508E62AF685DA00DA046E /* SelectedTourTableViewCell.swift in Sources */,
+				2DA508E42AF685BB00DA046E /* SelectedTourTableViewController.swift in Sources */,
 				A5C02B812AF6783F00F324D1 /* Trip.swift in Sources */,
 				A5C02B6D2AF6774100F324D1 /* ViewController.swift in Sources */,
 				A5C02B692AF6774100F324D1 /* AppDelegate.swift in Sources */,
