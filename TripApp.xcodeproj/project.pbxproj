@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A520A3312AF6BCE20026B3E1 /* CountryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520A3302AF6BCE20026B3E1 /* CountryCollectionViewController.swift */; };
+		A520A3332AF6BD290026B3E1 /* CountryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A520A3322AF6BD290026B3E1 /* CountryCollectionViewCell.swift */; };
+		A520A3352AF6C17F0026B3E1 /* Country.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A520A3342AF6C17F0026B3E1 /* Country.storyboard */; };
 		2DA508E22AF6859A00DA046E /* SelectedTour.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA508E12AF6859A00DA046E /* SelectedTour.storyboard */; };
 		2DA508E42AF685BB00DA046E /* SelectedTourTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA508E32AF685BB00DA046E /* SelectedTourTableViewController.swift */; };
 		2DA508E62AF685DA00DA046E /* SelectedTourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA508E52AF685DA00DA046E /* SelectedTourTableViewCell.swift */; };
@@ -20,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+
+		A520A3302AF6BCE20026B3E1 /* CountryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCollectionViewController.swift; sourceTree = "<group>"; };
+		A520A3322AF6BD290026B3E1 /* CountryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCollectionViewCell.swift; sourceTree = "<group>"; };
+		A520A3342AF6C17F0026B3E1 /* Country.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Country.storyboard; sourceTree = "<group>"; };
 		2DA508E12AF6859A00DA046E /* SelectedTour.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectedTour.storyboard; sourceTree = "<group>"; };
 		2DA508E32AF685BB00DA046E /* SelectedTourTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTourTableViewController.swift; sourceTree = "<group>"; };
 		2DA508E52AF685DA00DA046E /* SelectedTourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTourTableViewCell.swift; sourceTree = "<group>"; };
@@ -45,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A520A32D2AF6BC6B0026B3E1 /* Daniil */ = {
+			isa = PBXGroup;
+			children = (
+				A520A3302AF6BCE20026B3E1 /* CountryCollectionViewController.swift */,
+				A520A3322AF6BD290026B3E1 /* CountryCollectionViewCell.swift */,
+				A520A3342AF6C17F0026B3E1 /* Country.storyboard */,
+			);
+			path = Daniil;
 		2DA508E02AF6857900DA046E /* Max */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +91,7 @@
 			children = (
 				2DA508E02AF6857900DA046E /* Max */,
 				A5C02B822AF6784900F324D1 /* Model */,
+				A520A32D2AF6BC6B0026B3E1 /* Daniil */,
 				A5C02B7C2AF6778400F324D1 /* App */,
 				A5C02B7E2AF677A400F324D1 /* ViewControllers */,
 				A5C02B7D2AF6779200F324D1 /* Storyboard */,
@@ -186,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5C02B752AF6774300F324D1 /* LaunchScreen.storyboard in Resources */,
+				A520A3352AF6C17F0026B3E1 /* Country.storyboard in Resources */,
 				2DA508E22AF6859A00DA046E /* SelectedTour.storyboard in Resources */,
 				A5C02B722AF6774300F324D1 /* Assets.xcassets in Resources */,
 				A5C02B702AF6774100F324D1 /* Main.storyboard in Resources */,
@@ -199,6 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A520A3312AF6BCE20026B3E1 /* CountryCollectionViewController.swift in Sources */,
+				A520A3332AF6BD290026B3E1 /* CountryCollectionViewCell.swift in Sources */,
 				2DA508E62AF685DA00DA046E /* SelectedTourTableViewCell.swift in Sources */,
 				2DA508E42AF685BB00DA046E /* SelectedTourTableViewController.swift in Sources */,
 				A5C02B812AF6783F00F324D1 /* Trip.swift in Sources */,
