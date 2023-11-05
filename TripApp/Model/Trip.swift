@@ -31,7 +31,7 @@ struct KindTour {
         "Wine tour with lunch",
     ]
     
-    static let tourPrices = ["120$", "459$", "991$", "100$", "457$", "912$", "345$", "356$", "500$"]
+    static let tourPrices = ["125$", "459$", "120$", "145$", "586$", "100$", "345$", "190$", "500$"]
     
     enum CountryType: CaseIterable {
         case Russia
